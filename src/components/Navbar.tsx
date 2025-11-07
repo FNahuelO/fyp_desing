@@ -24,7 +24,7 @@ export const Navbar = () => {
             <img
               src="/FPDesing.png"
               alt="F&P Desing Studio"
-              className="h-10 translate-y-1.5 cursor-pointer"
+              className="h-10 translate-y-1.5 cursor-pointer sm:h-6"
               onClick={() => scrollToSection("inicio")}
             />
           </div>
