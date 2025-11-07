@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 0%;
+        /* Negro */
+        --foreground: 0 0% 95%;
+
+        --card: 0 0% 8%;
+        --card-foreground: 0 0% 95%;
+
+        --popover: 0 0% 8%;
+        --popover-foreground: 0 0% 95%;
+
+        --primary: 200 100% 50%;
+        /* Azul */
+        --primary-foreground: 0 0% 100%;
+
+        --secondary: 0 0% 25%;
+        /* Gris oscuro */
+        --secondary-foreground: 0 0% 95%;
+
+        --muted: 0 0% 15%;
+        --muted-foreground: 0 0% 60%;
+
+        --accent: 200 100% 50%;
+        /* Azul */
+        --accent-foreground: 0 0% 100%;
+
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+
+        --border: 0 0% 20%;
+        --input: 0 0% 20%;
+        --ring: 200 100% 50%;
+
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+/* Gradiente azul personalizado para F&P */
+.gradient-blue {
+    background: linear-gradient(135deg, #3b9fff 0%, #1a7acc 100%);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #3b9fff 0%, #1a7acc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Animaciones suaves */
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
