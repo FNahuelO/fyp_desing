@@ -8,6 +8,11 @@ export const Hero = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToContact = () => {
+    const element = document.getElementById("contacto");
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section
       id="inicio"
@@ -75,7 +80,12 @@ export const Hero = () => {
             >
               Ver Proyectos
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-6">
+            <Button
+              size="lg"
+              variant="outline"
+              className="text-lg px-8 py-6"
+              onClick={() => scrollToContact()}
+            >
               Contáctanos
             </Button>
           </motion.div>
