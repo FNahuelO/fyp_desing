@@ -22,19 +22,9 @@ const projects = [
       "https://www.figma.com/design/IMF0TX81fyEBhVfUtARBms/CEPPA-Psicolog%C3%ADa?node-id=0-1&t=fkBMqYGSr0QaIl9Z-1",
     websiteUrl: "https://ceppa.com.ar",
   },
+
   {
     id: 2,
-    title: "Mia - Invitaciones Digitales",
-    description:
-      "Diseño UX/UI completo para aplicación móvil de gestión de eventos especiales. Incluye invitaciones digitales, galería multimedia, registro de regalos, mapas integrados y sistema RSVP.",
-    category: "Mobile App Design",
-    image: "/mia.png",
-    figmaUrl:
-      "https://www.figma.com/design/2DEdvhwJBNQ8RdCY96mEiQ/Invitaci%C3%B3n-de-15?node-id=0-1&t=mTH3ItqdT9rKlV1E-1",
-    websiteUrl: "https://mia-xv.vercel.app/",
-  },
-  {
-    id: 3,
     title: "Sistema de Gestión de Citas",
     description:
       "Plataforma completa de gestión de citas con app móvil y panel administrativo web. Branding moderno con tema oscuro, acentos azules vibrantes y diseño minimalista. Incluye calendario interactivo, sistema de reservas, gestión de clientes y servicios con interfaces optimizadas para usuario final y administrador.",
@@ -44,6 +34,26 @@ const projects = [
       "https://www.figma.com/design/wbWjZJPCE1RmK1ehpjCnGx/Gestionador-de-Citas-Barberia?node-id=0-1&p=f&t=RWtoda1MvCF6p5F4-0",
   },
 
+  {
+    id: 3,
+    title: "Kiosco Buji - Gestión de Caja",
+    description:
+      "App móvil administrativa para gestión de cierres de caja en kioscos. Branding distintivo con rojo oscuro y amarillo vibrante, logo de perro para identidad amigable. Incluye login seguro, dashboard con métricas de cierres y gastos, formularios completos para registro de ventas, observaciones y comprobantes. Sistema de notificaciones y gestión por usuario con interface optimizada para operaciones diarias.",
+    category: "Mobile Admin App Design",
+    image: "/buji.png",
+    websiteUrl: "https://kiosco-buji.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Invitaciones Digitales",
+    description:
+      "Diseño completo de invitaciones digitales para eventos especiales. Branding moderno con tema oscuro y acentos azules vibrantes. Incluye sistema de registro de asistencia, galería multimedia, mapas integrados y sistema RSVP. Interfaces optimizadas para usuario final y administrador.",
+    category: "Web Design",
+    image: "/boda.png",
+    figmaUrl:
+      "https://www.figma.com/design/voRBdKLbb0IpDxGmQNpFIW/Invitaciones-Digitales?node-id=0-1&p=f&t=ypAKEJZmFUiqRaOL-0",
+    websiteUrl: "https://bodacrisyflor.vercel.app/",
+  },
   {
     id: 5,
     title: "Grow Shop - E-commerce Platform",
@@ -55,24 +65,15 @@ const projects = [
       "https://www.figma.com/design/FgAZO7uKOJzxM7KCjKAnCE/Market-Place-Grow-Shop?node-id=1-3&p=f&t=HOT1U1IYj7U5TflE-0",
   },
   {
-    id: 5,
-    title: "Kiosco Buji - Gestión de Caja",
-    description:
-      "App móvil administrativa para gestión de cierres de caja en kioscos. Branding distintivo con rojo oscuro y amarillo vibrante, logo de perro para identidad amigable. Incluye login seguro, dashboard con métricas de cierres y gastos, formularios completos para registro de ventas, observaciones y comprobantes. Sistema de notificaciones y gestión por usuario con interface optimizada para operaciones diarias.",
-    category: "Mobile Admin App Design",
-    image: "/buji.png",
-    websiteUrl: "https://kiosco-buji.vercel.app",
-  },
-  {
     id: 6,
-    title: "Invitaciones Digitales",
+    title: "Mia - Invitaciones Digitales",
     description:
-      "Diseño completo de invitaciones digitales para eventos especiales. Branding moderno con tema oscuro y acentos azules vibrantes. Incluye sistema de registro de asistencia, galería multimedia, mapas integrados y sistema RSVP. Interfaces optimizadas para usuario final y administrador.",
-    category: "Web Design",
-    image: "/boda.png",
+      "Diseño UX/UI completo para aplicación móvil de gestión de eventos especiales. Incluye invitaciones digitales, galería multimedia, registro de regalos, mapas integrados y sistema RSVP.",
+    category: "Mobile App Design",
+    image: "/mia.png",
     figmaUrl:
-      "https://www.figma.com/design/voRBdKLbb0IpDxGmQNpFIW/Invitaciones-Digitales?node-id=0-1&p=f&t=ypAKEJZmFUiqRaOL-0",
-    websiteUrl: "https://bodacrisyflor.vercel.app/",
+      "https://www.figma.com/design/2DEdvhwJBNQ8RdCY96mEiQ/Invitaci%C3%B3n-de-15?node-id=0-1&t=mTH3ItqdT9rKlV1E-1",
+    websiteUrl: "https://mia-xv.vercel.app/",
   },
 ];
 
@@ -136,6 +137,7 @@ export const Projects = () => {
                       onClick={() =>
                         window.open(project?.figmaUrl || "", "_blank")
                       }
+                      disabled={!project.figmaUrl}
                     >
                       <Figma size={16} className="mr-2" />
                       Ver en Figma
@@ -143,6 +145,7 @@ export const Projects = () => {
                     <Button
                       size="sm"
                       variant="outline"
+                      disabled={!project.websiteUrl}
                       onClick={() =>
                         window.open(project?.websiteUrl || "", "_blank")
                       }
