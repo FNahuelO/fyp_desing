@@ -11,10 +11,17 @@ export const Hero = () => {
   return (
     <section
       id="inicio"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-black via-gray-900 to-black"
     >
       {/* Fondo con patrón de puntos */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-500/5 via-transparent to-transparent"></div>
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-500/20 via-transparent to-transparent"></div>
+
+      {/* Grid pattern */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f12_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f12_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+
+      {/* Efectos de luz */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto px-4 z-10">
         <motion.div
@@ -30,7 +37,7 @@ export const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex items-center justify-center space-x-4 mb-8"
           >
-            <div className="w-2 h-24 gradient-blue rounded"></div>
+            <div className="w-2 h-24 gradient-blue rounded translate-y-2"></div>
             <h1 className="text-7xl md:text-9xl font-bold">
               <span className="gradient-text">F&P</span>
             </h1>

@@ -17,7 +17,7 @@ const projects = [
     description:
       "Diseño completo de plataforma web y mobile para el Centro de Psicoterapias. Incluye sitio institucional con múltiples páginas (Home, Equipo, Revista, Cursos), sistema de gestión administrativa, reproductor multimedia y versión responsive completa.",
     category: "Web & Mobile Design",
-    image: "src/assets/ceppa.png",
+    image: "/ceppa.png",
     figmaUrl:
       "https://www.figma.com/design/IMF0TX81fyEBhVfUtARBms/CEPPA-Psicolog%C3%ADa?node-id=0-1&t=fkBMqYGSr0QaIl9Z-1",
     websiteUrl: "https://ceppa.com.ar",
@@ -28,7 +28,7 @@ const projects = [
     description:
       "Diseño UX/UI completo para aplicación móvil de gestión de eventos especiales. Incluye invitaciones digitales, galería multimedia, registro de regalos, mapas integrados y sistema RSVP.",
     category: "Mobile App Design",
-    image: "src/assets/mia.png",
+    image: "/mia.png",
     figmaUrl:
       "https://www.figma.com/design/2DEdvhwJBNQ8RdCY96mEiQ/Invitaci%C3%B3n-de-15?node-id=0-1&t=mTH3ItqdT9rKlV1E-1",
     websiteUrl: "https://mia-xv.vercel.app/",
@@ -39,7 +39,7 @@ const projects = [
     description:
       "Plataforma completa de gestión de citas con app móvil y panel administrativo web. Branding moderno con tema oscuro, acentos azules vibrantes y diseño minimalista. Incluye calendario interactivo, sistema de reservas, gestión de clientes y servicios con interfaces optimizadas para usuario final y administrador.",
     category: "App & Dashboard Design",
-    image: "src/assets/barberia.png",
+    image: "/barberia.png",
     figmaUrl:
       "https://www.figma.com/design/wbWjZJPCE1RmK1ehpjCnGx/Gestionador-de-Citas-Barberia?node-id=0-1&p=f&t=RWtoda1MvCF6p5F4-0",
   },
@@ -50,7 +50,7 @@ const projects = [
     description:
       "Plataforma integral de e-commerce con branding distintivo de tema oscuro y acentos verdes vibrantes. Incluye sitio institucional completo, sistema de usuarios con registro, login, favoritos y carrito de compras. Panel administrativo robusto para gestión de productos, categorías, banners y ventas con dashboard de métricas. Experiencia optimizada desde la navegación de productos hasta la confirmación de pedidos.",
     category: "E-commerce & Admin Design",
-    image: "src/assets/grow.png",
+    image: "/grow.png",
     figmaUrl:
       "https://www.figma.com/design/FgAZO7uKOJzxM7KCjKAnCE/Market-Place-Grow-Shop?node-id=1-3&p=f&t=HOT1U1IYj7U5TflE-0",
   },
@@ -60,7 +60,7 @@ const projects = [
     description:
       "App móvil administrativa para gestión de cierres de caja en kioscos. Branding distintivo con rojo oscuro y amarillo vibrante, logo de perro para identidad amigable. Incluye login seguro, dashboard con métricas de cierres y gastos, formularios completos para registro de ventas, observaciones y comprobantes. Sistema de notificaciones y gestión por usuario con interface optimizada para operaciones diarias.",
     category: "Mobile Admin App Design",
-    image: "src/assets/buji.png",
+    image: "/buji.png",
     websiteUrl: "https://kiosco-buji.vercel.app",
   },
   {
@@ -69,7 +69,7 @@ const projects = [
     description:
       "Diseño completo de invitaciones digitales para eventos especiales. Branding moderno con tema oscuro y acentos azules vibrantes. Incluye sistema de registro de asistencia, galería multimedia, mapas integrados y sistema RSVP. Interfaces optimizadas para usuario final y administrador.",
     category: "Web Design",
-    image: "src/assets/boda.png",
+    image: "/boda.png",
     figmaUrl:
       "https://www.figma.com/design/voRBdKLbb0IpDxGmQNpFIW/Invitaciones-Digitales?node-id=0-1&p=f&t=ypAKEJZmFUiqRaOL-0",
     websiteUrl: "https://bodacrisyflor.vercel.app/",

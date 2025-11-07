@@ -21,11 +21,12 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-1 h-8 gradient-blue rounded"></div>
-            <h1 className="text-2xl font-bold">
-              <span className="gradient-text">F&P</span>
-              <span className="text-gray-400"> Desing Studio</span>
-            </h1>
+            <img
+              src="/FPDesing.png"
+              alt="F&P Desing Studio"
+              className="h-10 translate-y-1.5 cursor-pointer"
+              onClick={() => scrollToSection("inicio")}
+            />
           </div>
 
           {/* Desktop Menu */}
