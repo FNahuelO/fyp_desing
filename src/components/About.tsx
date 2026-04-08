@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Award, Zap, Target, Brain } from "lucide-react";
 
 const stats = [
-  { icon: Zap, value: "3+", label: "Años de Experiencia" },
+  { icon: Zap, value: "5+", label: "Años de Experiencia" },
   { icon: Target, value: "100%", label: "Compromiso" },
   { icon: Award, value: "100%", label: "Calidad" },
   { icon: Brain, value: "100%", label: "Creatividad" },
