@@ -11,7 +11,7 @@ export const Footer = () => {
               <div className="w-1 h-8 gradient-blue rounded"></div>
               <h3 className="text-2xl font-bold">
                 <span className="gradient-text">F&P</span>
-                <span className="text-gray-400"> Desing Studio</span>
+                <span className="text-gray-400"> Design Studio</span>
               </h3>
             </div>
             <p className="text-gray-400 mb-4">
@@ -94,7 +94,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-900 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 F&P Desing Studio. Todos los derechos reservados.</p>
+          <p>&copy; 2025 F&P Design Studio. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

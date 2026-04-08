@@ -63,7 +63,7 @@ export const About = () => {
               Diseño que impulsa resultados
             </h3>
             <p className="text-gray-400 mb-4 text-lg leading-relaxed">
-              En F&P Desing Studio, creemos que el diseño va más allá de lo
+              En F&P Design Studio, creemos que el diseño va más allá de lo
               visual. Cada proyecto es una oportunidad para crear soluciones que
               generen impacto real en los negocios de nuestros clientes.
             </p>

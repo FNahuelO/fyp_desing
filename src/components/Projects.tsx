@@ -38,7 +38,7 @@ const projects = [
     id: 3,
     title: "Kiosco Buji - Gestión de Caja",
     description:
-      "App móvil administrativa para gestión de cierres de caja en kioscos. Branding distintivo con rojo oscuro y amarillo vibrante, logo de perro para identidad amigable. Incluye login seguro, dashboard con métricas de cierres y gastos, formularios completos para registro de ventas, observaciones y comprobantes. Sistema de notificaciones y gestión por usuario con interface optimizada para operaciones diarias.",
+      "App móvil administrativa para gestión de cierres de caja en kioscos. Branding distintivo con rojo oscuro y amarillo vibrante, logo de perro para identidad amigable. Incluye login seguro, dashboard con métricas de cierres y gastos, formularios completos para registro de ventas, observaciones y comprobantes. Sistema de notificaciones y gestión por usuario con interfaz optimizada para operaciones diarias.",
     category: "Mobile Admin App Design",
     image: "/buji.png",
     websiteUrl: "https://kiosco-buji.vercel.app",
@@ -74,6 +74,15 @@ const projects = [
     figmaUrl:
       "https://www.figma.com/design/2DEdvhwJBNQ8RdCY96mEiQ/Invitaci%C3%B3n-de-15?node-id=0-1&t=mTH3ItqdT9rKlV1E-1",
     websiteUrl: "https://mia-xv.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "TrabajoYa - Portal de Empleo",
+    description:
+      "Plataforma de empleo en Argentina que conecta personas y empresas de forma simple, rápida y 100% digital. Permite crear perfil profesional, postularse con un clic y encontrar ofertas por ubicación, modalidad y salario. Incluye portal para empresas con publicación de empleos y gestión de postulaciones.",
+    category: "Job Platform UX/UI",
+    image: "/trabajoya.png",
+    websiteUrl: "https://web.trabajo-ya.com",
   },
 ];
 

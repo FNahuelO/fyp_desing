@@ -54,7 +54,7 @@ export const Hero = () => {
             transition={{ delay: 0.5 }}
             className="text-4xl md:text-6xl font-bold text-gray-300 mb-6"
           >
-            Desing Studio
+            Design Studio
           </motion.h2>
 
           <motion.p
