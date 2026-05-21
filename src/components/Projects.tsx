@@ -15,7 +15,7 @@ const projects = [
     id: 1,
     title: "CEPPA - Plataforma Integral",
     description:
-      "Diseño completo de plataforma web y mobile para el Centro de Psicoterapias. Incluye sitio institucional con múltiples páginas (Home, Equipo, Revista, Cursos), sistema de gestión administrativa, reproductor multimedia y versión responsive completa.",
+      "Diseño completo de plataforma web y móvil para el Centro de Psicoterapias. Incluye sitio institucional con múltiples páginas (Home, Equipo, Revista, Cursos), sistema de gestión administrativa, reproductor multimedia y versión responsive completa.",
     category: "Web & Mobile Design",
     image: "/ceppa.png",
     figmaUrl:

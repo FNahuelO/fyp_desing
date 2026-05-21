@@ -1,6 +1,6 @@
-# F&P Desing Studio - Portfolio
+# F&P Design Studio - Portfolio
 
-Portfolio profesional corporativo para F&P Desing Studio, construido con las últimas tecnologías web.
+Portfolio profesional corporativo para F&P Design Studio, construido con las últimas tecnologías web.
 
 ## 🚀 Tecnologías
 
@@ -110,8 +110,8 @@ npm run build
 
 ## 📄 Licencia
 
-© 2025 F&P Desing Studio. Todos los derechos reservados.
+© 2025 F&P Design Studio. Todos los derechos reservados.
 
 ## 👨‍💻 Desarrollo
 
-Creado con ❤️ por F&P Desing Studio
+Creado con ❤️ por F&P Design Studio

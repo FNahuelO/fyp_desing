@@ -22,8 +22,8 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <img
-              src="/FPDesing.png"
-              alt="F&P Desing Studio"
+              src="/FPDesign.png"
+              alt="F&P Design Studio"
               className="h-10 translate-y-1.5 cursor-pointer sm:h-6"
               onClick={() => scrollToSection("inicio")}
             />
