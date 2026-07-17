@@ -91,7 +91,7 @@ const projects = [
       "Plataforma web integral para Coty Café con carta digital, pedidos online y paneles operativos. Incluye modalidades delivery, retiro y mesa por QR, checkout con Mercado Pago, gestión de cocina, mesas, caja y cadetes, más panel administrativo para catálogo, promociones, personal y reportes. Preparada como PWA para uso en celular, tablet y escritorio.",
     category: "Restaurant Platform Design",
     image: "/coty.png",
-    websiteUrl: "https://sistema-gestion-coty.vercel.app",
+    websiteUrl: "https://cotycafe.com",
   },
 ];
 
