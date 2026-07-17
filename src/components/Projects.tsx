@@ -84,6 +84,15 @@ const projects = [
     image: "/trabajoya.png",
     websiteUrl: "https://web.trabajo-ya.com",
   },
+  {
+    id: 8,
+    title: "Coty Café - Sistema de Gestión",
+    description:
+      "Plataforma web integral para Coty Café con carta digital, pedidos online y paneles operativos. Incluye modalidades delivery, retiro y mesa por QR, checkout con Mercado Pago, gestión de cocina, mesas, caja y cadetes, más panel administrativo para catálogo, promociones, personal y reportes. Preparada como PWA para uso en celular, tablet y escritorio.",
+    category: "Restaurant Platform Design",
+    image: "/coty.png",
+    websiteUrl: "https://cotycafe.com",
+  },
 ];
 
 export const Projects = () => {
